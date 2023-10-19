@@ -1,0 +1,48 @@
+html {
+    font-family: 'Palatino';
+  }
+  
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .profile {
+    margin: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  
+  .profile img {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+  }
+  
+  .name {
+    text-align: center;
+  }
+  
+  .name p {
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  .contact-info {
+    text-align: center;
+  }
+  
+  .bio {
+    text-align: left;
+  }
+  
+  .projects {
+    margin: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .project-title {
+    font-size: 22px;
+  }
+  
