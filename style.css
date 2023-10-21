@@ -14,7 +14,9 @@ html {
   
   body > *:not(.navbar){
     max-width: 50%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+
   }
   
   .profile {
@@ -74,7 +76,7 @@ html {
 .project-image {
     justify-content: center;
     width: 25%; 
-    margin-right: 6%; 
+    margin-right: 2%; 
 }
 
 .project-image img {
@@ -158,4 +160,18 @@ li:not(:last-child) {
 li {
     display: list-item;
     text-align: -webkit-match-parent;
+}
+
+.page-title {
+    font-weight: 300;
+    font-size: 40px;
+    display: block;
+}
+
+.post-description{
+    display: block;
+    font-size: 14px;
+    margin-block-end: 2em;
+
+    line-height: 1.5;
 }
