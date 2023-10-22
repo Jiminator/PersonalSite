@@ -145,13 +145,13 @@ a:hover {
 }
 
 .navbar a:hover {
-  color: #2598b9;
-  text-decoration: none;
+    color: #2598b9;
+    text-decoration: none;
 }
 
 
 .navbar a.active {
-  color: #2598b9;
+    color: #2598b9;
 }
 
 
