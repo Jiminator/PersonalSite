@@ -124,26 +124,31 @@ body > *:not(.navbar){
 
 
 .navbar {
-  overflow: hidden;
-  text-align: center;
-  margin-bottom: 50px;
-  border-bottom: 1px solid #424246;
-
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #424246;
 }
 
 .navbar a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  margin: 0 10px;
-  background-color: transparent; 
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 10px;
+    background-color: transparent; 
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .navbar a:hover {
   color: #2598b9;
+  text-decoration: none;
 }
+
 
 .navbar a.active {
   color: #2598b9;
