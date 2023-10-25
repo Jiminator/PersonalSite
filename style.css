@@ -245,7 +245,7 @@ td {
     margin-bottom: 0;
 }
 
-.list-group {
+.card-content {
     display: flex;
     flex-direction: column;
     padding-left: 0;
@@ -253,16 +253,16 @@ td {
     background-color: #212529;
 }
 
-.list-group>.list-group-item:last-child {
+.card-content>.card-content-item:last-child {
     border-bottom-width: 0;
 
 }
 
-.list-group>.list-group-item {
+.card-content>.card-content-item {
     border-width: 0 0 1px;
 }
 
-.list-group-item {
+.card-content-item {
     position: relative;
     display: block;
     padding: 12px 20px;
@@ -321,7 +321,7 @@ ul ul {
     min-width: 75px;
 }
 
-.cv .card .list-group-item .badge {
+.cv .card .card-content-item .badge {
     color: #212529;
     background-color: #2698ba;
 }
@@ -353,7 +353,7 @@ tr {
 }
 
 
-td.list-group-category {
+td.card-content-category {
     color: #2698ba;
     margin-bottom: 8px;
 }
@@ -364,7 +364,7 @@ table td {
     font-weight: 300;
 }
 
-td.list-group-name {
+td.card-content-name {
     font-size: 13px;
 }
 
@@ -374,7 +374,7 @@ tbody {
     border-color: inherit;
 }
 
-.list-group-table {
+.card-content-table {
     background-color: transparent;
 }
 
@@ -383,7 +383,7 @@ tbody {
     max-width: 50%;
 }
 
-.list-groups {
+.card-contents {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -399,6 +399,6 @@ b {
     background-color: #212529;
 }
 
-.list-group-table tbody tr td {
+.card-content-table tbody tr td {
     background-color: #212529;
 }
