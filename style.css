@@ -294,7 +294,7 @@ h6{
     background-color: #212529;
 }
 
-.ml-md-4{
+.right-column-alignment{
     margin-left: 24px;
 }
 
@@ -378,9 +378,8 @@ tbody {
     background-color: transparent;
 }
 
-.col-md-6 {
-    /* -ms-flex: 0 0 50%; */
-    /* flex: 0 0 50%; */
+.right-column {
+    flex: 0 0 50%; 
     max-width: 50%;
 }
 
@@ -390,10 +389,6 @@ tbody {
     justify-content: flex-start;
     flex-direction: row;
     align-content: center;
-    flex: 0 0 100%;
-    max-width: 100%;
-
-    
 }
 
 b {
