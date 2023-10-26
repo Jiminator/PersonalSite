@@ -35,7 +35,6 @@ body > *:not(.navbar){
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
-
 }
   
 .profile {
@@ -52,6 +51,9 @@ body > *:not(.navbar){
 }
   
 .name {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
   
@@ -61,6 +63,15 @@ body > *:not(.navbar){
 }
   
 .contact-info {
+    text-align: center;
+}
+
+.contact-icons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    width: 75px;
     text-align: center;
 }
   
@@ -87,13 +98,20 @@ body > *:not(.navbar){
     border-top: 1px solid #424246;
     padding: 10px;
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
 .project-image {
+    margin-top: 5px;
+    align-self: flex-start;
     justify-content: center;
     width: 25%; 
     margin-right: 2%; 
+}
+
+.project a{
+    align-self: flex-end;
 }
 
 .project-image img {
@@ -103,8 +121,10 @@ body > *:not(.navbar){
 }
 
 .project-details {
+    margin-top: 5px;
+    align-self: flex-start;
     flex: 1;
-    padding-bottom: 7vh;
+
 }
 
 .project-title {
@@ -402,3 +422,10 @@ b {
 .card-content-table tbody tr td {
     background-color: #212529;
 }
+
+.project p {
+    text-wrap: wrap;
+    font-style: italic;
+    max-width: 100%;
+}
+
