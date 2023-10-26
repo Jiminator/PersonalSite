@@ -435,7 +435,7 @@ b {
     max-width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1084px) {
     .name p {
     font-size: 30px;
     }
