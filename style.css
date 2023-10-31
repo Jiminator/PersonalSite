@@ -243,10 +243,6 @@ li {
     display: block;
 }
 
-.table {
-    margin-bottom: 16px;
-    vertical-align: top;
-}
 
 .pr {
     padding-right: 8px;
@@ -370,6 +366,8 @@ table {
     border-spacing: 2px;
     border-color: gray;
     border-collapse: collapse;
+    margin-bottom: 16px;
+    vertical-align: top;
 }
 
 tr {
@@ -435,7 +433,7 @@ b {
     max-width: 100%;
 }
 
-@media only screen and (max-width: 1084px) {
+@media only screen and (max-width: 640px) {
     .name p {
     font-size: 30px;
     }
@@ -517,13 +515,13 @@ b {
     }
 
     .job-description {
-    font-size: 12px;
+        font-size: 12px;
     }
 
     .badge {
-    font-size: 50%;
-    min-width: 50px;
-    padding: 2px 4px;
+        font-size: 50%;
+        min-width: 50px;
+        padding: 2px 4px;
     }
 
     .card-content-table tbody tr td {
@@ -531,14 +529,24 @@ b {
     }
 
     .project p {
-    font-size: 12px;
+        max-width: 45%;
+        font-size: 12px;
     }
     .contact-icons {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    width: 75px;
-    text-align: center;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;  
+        width: 75px;
+        text-align: center;
+    }
+    .right-column-alignment{
+        font-size: 14px;
+        margin-left: 24px;
+    }
+    .table {
+        margin-bottom: 16px;
+        vertical-align: top;
+        max-width: 5px;
     }
 }
