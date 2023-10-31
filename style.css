@@ -434,6 +434,11 @@ b {
 }
 
 @media only screen and (max-width: 640px) {
+    body > *:not(.navbar){
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .name p {
     font-size: 30px;
     }
@@ -495,16 +500,6 @@ b {
     padding: 8px 16px;
     }
 
-    .role, .badge-column {
-    padding-right: 10px;
-    padding-left: 10px;
-    }
-
-    .role {
-    text-wrap: wrap;
-    max-width: 45%;
-    }
-
     .right-column {
     flex: 1;
     max-width: 100%;
@@ -541,12 +536,44 @@ b {
         text-align: center;
     }
     .right-column-alignment{
+        margin-top: 10px;
         font-size: 14px;
-        margin-left: 24px;
+        margin-left: 15px;
     }
     .table {
         margin-bottom: 16px;
         vertical-align: top;
         max-width: 5px;
     }
+
+    .pl{
+        background-color: #212529;
+        padding-left: 8px;
+        word-wrap: break-word;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin-right: -15px;
+        margin-left: -15px;
+        table-layout: fixed;
+        width: 100%;
+    }
+    /* .job-description {
+        display: none;
+    } */
+    .project p {
+        text-wrap: wrap;
+        font-style: italic;
+        max-width: 100%;
+    }
+    .role{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    
+
+    
 }
